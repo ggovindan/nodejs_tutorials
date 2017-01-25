@@ -15,5 +15,13 @@
   "keywords": [
     "nodejs",
     "promise"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggovindan/nodejs_tutorials.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ggovindan/nodejs_tutorials/issues"
+  },
+  "homepage": "https://github.com/ggovindan/nodejs_tutorials#readme"
 }

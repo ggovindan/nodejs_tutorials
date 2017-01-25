@@ -1,0 +1,19 @@
+{
+  "name": "experiments",
+  "version": "1.0.0",
+  "description": "This package/directory is for all kinds of weird experiments with nodejs",
+  "main": "promise_example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gugovind",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "nodejs",
+    "promise"
+  ]
+}

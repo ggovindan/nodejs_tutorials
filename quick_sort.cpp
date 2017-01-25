@@ -62,7 +62,7 @@ int main() {
     print(arr, (sizeof(arr)/sizeof(arr[0])));
     quicksort(arr, 0, (sizeof(arr)/sizeof(arr[0]))-1);
     
-    duration = (std::clock() - start) /(double) CLOCKS_PER_SEC;
-    cout<<"time to quicksort="<<duration<<endl; 
+    duration = (std::clock() - start) * 1000 /(double) CLOCKS_PER_SEC;
+    cout<<"time to quicksort="<<duration<< "ms"<<endl; 
     return 0;
 }
